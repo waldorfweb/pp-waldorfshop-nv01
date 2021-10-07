@@ -1,0 +1,43 @@
+{
+  "version": "5.0.3",
+  "license": "AGPL-3.0",
+  "name": "Waldorfshop2",
+  "marketplaceName": {
+    "de": "Waldorfshop2",
+    "en": "Waldorfshop2"
+  },
+  "pluginIcon": "icon_plugin_xs.png",
+  "authorIcon": "icon_author_xs.png",
+  "email": "",
+  "phone": "",
+  "description": "Waldorf theme for Ceres.",
+  "shortDescription": {
+    "de": "Waldorf theme 02 für Ceres.",
+    "en": "Waldorf theme 02 for Ceres."
+  },
+  "namespace": "Waldorfshop2",
+  "author": "Universnatur GmbH",
+  "keywords": [
+    "plentymarkets",
+    "plugins",
+    "layout",
+    "theme",
+    "ceres"
+  ],
+  "price": 0,
+  "categories": [
+    3518
+  ],
+  "type": "theme",
+  "require": [
+    "Ceres"
+  ],
+  "containers": [
+    {
+      "key" : "Head.BeforeTagManager",
+      "name" : "Head: Google Tag Manager",
+      "description" : "Add data layer before google tag manager"
+    }
+  ],
+  "serviceProvider": "Waldorfshop2\\Providers\\ThemeServiceProvider"
+}
